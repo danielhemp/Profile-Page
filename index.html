@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>My Starter Site</title>
+  </head>
+  <body>
+    <!--Begin Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Daniel Hemphill</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="projects.html"
+                    >Current Projects</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span></span>
+      <div class="donateButton" id="donateButton">
+        <a
+          class="donate-with-crypto"
+          href="https://commerce.coinbase.com/checkout/57f48537-bb9c-4274-bd24-882b2cf537ba"
+        >
+          Donate with Crypto
+        </a>
+        <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
+      </div>
+    </nav>
+
+    <!---End Naviation Bar-->
+
+    <!--Begin Content-->
+    <section class="aboutMe" id="aboutMe">
+      <div class="container">
+        <h1 class="text-center">About Me</h1>
+        <br />
+        <div class="row">
+          <div class="col-md col-sm-12">
+            <div class="card">
+              <img
+                src="img/profile.jpg"
+                class="card-img-top rounded-circle"
+                id="profileImage"
+                name="profileImage"
+              />
+            </div>
+            <h5 class="card-title" id="tagline" name="tagline">
+              Full-Stack Web Developer
+            </h5>
+          </div>
+          <div
+            class="col-lg-8 col-md-8 col-sm-12"
+            id="description"
+          >
+            <h2>Hi! I'm Daniel Hemphill. I build websites that last.</h2>
+            <p>
+              I'm a web developber based in Olathe, Kansas. I'm currently in a
+              coding bootcamp focused on Boostrap, REACT, and NodeJS frameworks.
+              I'm a quick learner and I can figure out just about anything I set
+              my mind to!
+            </p>
+            <p>
+              I'm also a Scouter and a project manager at heart. I love the
+              outdoors and working with youth, and teaching them new skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
