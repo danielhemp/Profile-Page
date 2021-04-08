@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--CSS Links Here-->    
+    <!--CSS Links Here-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +25,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Daniel Hemphill</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler align-self-right"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -35,6 +35,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -71,20 +72,13 @@
           </ul>
         </div>
       </div>
-      <span></span>
-      <div class="donateButton" id="donateButton">
-        <a
-          class="donate-with-crypto"
-          href="https://commerce.coinbase.com/checkout/57f48537-bb9c-4274-bd24-882b2cf537ba"
-        >
-          Donate with Crypto
-        </a>
-        <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
-      </div>
     </nav>
+    
 
     <!---End Naviation Bar-->
-
+    <div class="particles-canvas" id="tsparticles">
+      <canvas class="tsparticles-canvans-el"></canvas>
+    </div>
     <!--Begin Content-->
     <section class="aboutMe" id="aboutMe">
       <div class="container">
@@ -99,13 +93,18 @@
                 id="profileImage"
                 name="profileImage"
               />
+
+              <h5
+                class="card-title align-self-center"
+                id="tagline"
+                name="tagline"
+              >
+                Full-Stack Web Developer
+              </h5>
             </div>
-            <h5 class="card-title" id="tagline" name="tagline">
-              Full-Stack Web Developer
-            </h5>
           </div>
           <div
-            class="col-lg-8 col-md-8 col-sm-12"
+            class="col-lg-8 col-md-8 col-sm-12 align-self-center"
             id="description"
           >
             <h2>Hi! I'm Daniel Hemphill. I build websites that last.</h2>
@@ -120,7 +119,9 @@
               outdoors and working with youth, and teaching them new skills.
             </p>
             <p>
-              I am able to make sites that last and are "unsensorable" because of a technology called <a href="www.ipfs.io"> IPFS</a>. If you would like to learn more, please reach out, and we calk about 
+              I am able to make sites that last and are "unsensorable" because
+              of a technology called <a href="www.ipfs.io"> IPFS</a>. If you
+              would like to learn more, please reach out, and we calk about
             </p>
           </div>
         </div>
