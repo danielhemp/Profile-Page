@@ -1,0 +1,16 @@
+#profile-img {
+  height: 400px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.carousel {
+  border: solid;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
