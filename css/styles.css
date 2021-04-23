@@ -8,9 +8,18 @@
   border: solid;
 }
 
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
+.carousel-img {
+  width: 100px;
+  height: auto;
 }
+
+ul {
+  padding: 25px;
+}
+
+#projectsSection {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+
