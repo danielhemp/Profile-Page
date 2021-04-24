@@ -1,16 +1,27 @@
+.jumbotron {
+  h1 {
+    font-family: "Anton", sans-serif;
+    border: 5px;
+    border-style: double;
+    border-bottom: grey;
+    border-left: none;
+    border-right: none;
+    padding-top: 1rem;
+  }
+  h2 {
+    font-family: "Anton", sans-serif;
+    border: 5px;
+    border-style: double;
+    border-top: grey;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1rem;
+  }
+}
 #profile-img {
   height: 400px;
   border-radius: 50%;
   align-self: center;
-}
-
-.carousel {
-  border: solid;
-}
-
-.carousel-img {
-  width: 100px;
-  height: auto;
 }
 
 ul {
@@ -27,4 +38,9 @@ li {
   margin: 4em 0;
   padding: 1em;
   position: relative;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
